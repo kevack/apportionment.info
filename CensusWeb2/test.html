@@ -34,5 +34,39 @@
     <div class="thirteen">Six</div>
   </div>
 
+<div class="slideshow">
+
+  <img class="mySlides" src= "Handoffs/1940-12-4-cdt-map.png">
+  <img class="mySlides" src="Handoffs/1950handoff.jpg">
+  <img class="mySlides" src="Handoffs/1960-11-16-wapo-map.png">
+  <img class="mySlides" src="Handoffs/1970handoff.png">
+  <img class="mySlides" src="Handoffs/1980handoff.png">
+  <img class="mySlides" src="Handoffs/1990handoff.png">
+  <img class="mySlides" src="Handoffs/2000handoff.png">
+  <img class="mySlides" src="Handoffs/2010handoff.png">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+</div>
+
+
 </body>
 </html>
