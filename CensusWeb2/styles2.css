@@ -112,6 +112,8 @@ section div.secondImg{
 
 }
 
+
+
 /*
  ####################################### ANNOUNCE AND TRANSMIT #################################
 */
@@ -138,7 +140,7 @@ section div.secondImg{
 
 
 div.wrapper{
-  margin:20px 0 20px 0;
+  margin:20px 0 80px 0;
 
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -149,7 +151,6 @@ div.wrapper{
 .one{
   grid-column: 1 / 3;
   grid-row: 1;
-  background-color: blue;
 }
 
 .two{
@@ -243,6 +244,8 @@ div.wrapper{
   height: 604px;
   grid-column: 2/span 10;
 }
+
+
 /*
  ####################################### CSS for the Primary Sources interaction #################################
 */
