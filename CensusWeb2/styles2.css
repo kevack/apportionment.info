@@ -89,7 +89,7 @@ a:hover{
 }
 
 section.enduringTradition h2{
-  grid-column: 1/span 10;
+  grid-column: 1/span 12;
   text-align: center;
   font-family: 'Abril Fatface', cursive;
   font-size: 40px;
@@ -103,17 +103,17 @@ section.enduringTradition p, h3{
 }
 
 section div.firstImg{
-  grid-column: 1/ span 6;
+  grid-column: 1/ span 5;
 
 }
 
 section div.secondImg{
-  grid-column: 7/span 12;
+  grid-column: 7/span 5;
 
 }
 
 .constitutionScreenshot{
-  grid-column: 2/span 11;
+  grid-column: 2/span 10;
 }
 
 
@@ -131,16 +131,16 @@ section div.secondImg{
 }
 
 .announceAndTransmit h2{
-  grid-column: 1/span 11;
+  grid-column: 1/span 12;
   text-align: center;
   font-family: 'Abril Fatface', cursive;
   font-size: 40px;
-  color: #1A1A7F;
+  color: #D42B00;
   margin: 0 0 24px 0;
 }
 
 .announceAndTransmit p, h3{
-  grid-column: 1/span 11;}
+  grid-column: 1/span 12;}
 
 
 div.wrapper{
@@ -352,4 +352,17 @@ h1 {
 
 .accordion p:last-child {
   margin-bottom: 0;
+}
+
+
+
+/*
+ ####################################### RESPONSIVENESS #################################
+*/
+
+@media (max-width:1128px){
+  body{
+    width: auto;
+    margin: 45px auto 45px auto;
+
 }
