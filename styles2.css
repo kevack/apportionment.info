@@ -16,19 +16,17 @@ header{
 }
 
 header h1{
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 40px;
   color: #1A1A7F;
-  line-height: 1.3;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 header h4{
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 24px;
   color: #1A1A7F;
-  line-height: 1.3;
   text-align: center;
   margin: 5px 0 30px 0;
 
@@ -39,20 +37,19 @@ h2 {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  line-height: 113.5%;
   /* or 27px */
   color: #1A1A7F;
 }
 
 h3{
-  font-family: 'Abril Fatface', cursive;
-  font-size: 32px;
-  color: #D42B00;
-  margin: 0 0 24px 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
+  color: #1A1A7F;
+
 }
 
 p{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -75,7 +72,7 @@ li{
 
 
 nav a{
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -113,7 +110,7 @@ div.sticky {
 }
 
 .footer a{
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -151,11 +148,11 @@ figcaption{
 
 section.enduringTradition h2{
   grid-column: 1/span 12;
-  text-align: center;
-  font-family: 'Abril Fatface', cursive;
-  font-size: 40px;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
   color: #1A1A7F;
-  margin: 0 0 24px 0;
+  margin: 5px 0 5px 0;
 }
 
 section.enduringTradition p, h3{
@@ -193,11 +190,11 @@ section div.secondImg{
 
 .announceAndTransmit h2{
   grid-column: 1/span 12;
-  text-align: center;
-  font-family: 'Abril Fatface', cursive;
-  font-size: 40px;
-  color: #D42B00;
-  margin: 0 0 24px 0;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  color: #1A1A7F;
+  margin: 5px 0 5px 0;
 }
 
 .announceAndTransmit p, h3{
@@ -361,17 +358,17 @@ body {
   cursor: pointer;
   font-weight: normal;
   padding: 15px;
-  background: #de6749;
+  background: #727372;
 }
 
 .accordion label:hover,
 .accordion label:focus {
-  background: rgba(212, 43, 0, 0.52);
+  background: #404040;
 }
 
 .accordion .handle label:before {
   font-family: 'fontawesome';
-  content: "\f054";
+
   display: inline-block;
   margin-right: 10px;
   font-size: .58em;
@@ -380,7 +377,7 @@ body {
 }
 
 .accordion > input[type="checkbox"]:checked ~ .handle label:before {
-  content: "\f078";
+  
 }
 
 
@@ -417,6 +414,10 @@ h1 {
 
 .accordion p:last-child {
   margin-bottom: 0;
+}
+
+.content li{
+  list-style-type: none;
 }
 
 
