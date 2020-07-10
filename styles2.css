@@ -96,9 +96,21 @@ div.sticky {
   top: 0;
   left:0;
   background-color: #1A1A7F;
-  padding: 5px;
+
   font-size: 20px;
   width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px 24px;
+}
+
+.sticky img{
+  max-width:100%;
+}
+
+.logo{
+  grid-column: 1/span 3;
+  margin-left: 24px;
 }
 
 .footer{
@@ -377,7 +389,7 @@ body {
 }
 
 .accordion > input[type="checkbox"]:checked ~ .handle label:before {
-  
+
 }
 
 
@@ -421,7 +433,6 @@ h1 {
 }
 
 
-
 /*
  ####################################### RESPONSIVENESS #################################
 */
@@ -452,7 +463,14 @@ h1 {
   .enduringTradition h2{
       font-size: 24px;
   }
+
+  .logo{
+    grid-column: 1/span 4;
+    margin-left: 24px;
+  }
 }
+
+
 
 
 @media (max-width:745px){
@@ -542,9 +560,27 @@ h1 {
     grid-column: 2/span 9;
   }
 
-  nav a{
-    font-size: 12px;
-    margin: 0 20px 0 0;
+  nav{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
   }
+
+  .logo{
+    grid-column: 1/span 5;
+    margin-left: 24px;
+  }
+
+}
+
+@media (max-width:550px){
+  nav{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+
 
 }
