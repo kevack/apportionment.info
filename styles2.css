@@ -2,6 +2,16 @@
  ####################################### BODY / NAV / FOOTER #################################
 */
 
+.pillars li{
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+  padding-top: 0;
+}
+
 body{
   margin: 45px auto 45px auto;
   width: 1128px;
@@ -254,7 +264,7 @@ div.wrapper{
 }
 
 .six{
-  grid-column: 3 / 6;
+  grid-column: 3 / 13;
   grid-row: 2;
 
 }
@@ -272,7 +282,7 @@ div.wrapper{
 }
 
 .nine{
-  grid-column: 3 / 6;
+  grid-column: 3 / 13;
   grid-row: 3;
 
 
@@ -291,7 +301,7 @@ div.wrapper{
 }
 
 .twelve{
-  grid-column: 3 / 6;
+  grid-column: 3 / 13;
   grid-row: 4;
 
 }
@@ -482,7 +492,7 @@ h1 {
 
 @media (max-width:745px){
   .one{
-    grid-column: 1 / 12;
+    grid-column: 1 / 9;
     grid-row: 1;
   }
 
@@ -510,7 +520,7 @@ h1 {
   }
 
   .six{
-    grid-column: 1 / 6;
+    grid-column: 1 / 13;
     grid-row: 2;
 
   }
@@ -526,7 +536,7 @@ h1 {
   }
 
   .nine{
-    grid-column: 1 / 6;
+    grid-column: 1 / 13;
     grid-row: 3;
 
 
@@ -543,7 +553,7 @@ h1 {
   }
 
   .twelve{
-    grid-column: 1 / 6;
+    grid-column: 1 / 13;
     grid-row: 4;
 
   }
