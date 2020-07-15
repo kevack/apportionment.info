@@ -432,6 +432,10 @@ h1 {
   list-style-type: none;
 }
 
+.smallLogo{
+  display: none;
+}
+
 
 /*
  ####################################### RESPONSIVENESS #################################
@@ -467,6 +471,9 @@ h1 {
   .logo{
     grid-column: 1/span 4;
     margin-left: 24px;
+  }
+  .smallLogo{
+    display: none;
   }
 }
 
@@ -571,7 +578,9 @@ h1 {
     grid-column: 1/span 5;
     margin-left: 24px;
   }
-
+  .smallLogo{
+    display: none;
+  }
 }
 
 @media (max-width:550px){
@@ -581,6 +590,29 @@ h1 {
     align-items:center;
     justify-content: center;
   }
+
+  nav a{
+    margin: 0 0 0 0;
+  }
+
+  .logo{
+    display:none;
+  }
+
+  .smallLogo{
+    display: contents;
+    width:143px;
+    height:14px;
+  }
+  .smallLogo img{
+    height:100%;
+    width: 143px;
+  }
+
+  h1{
+    line-height: 1;
+  }
+
 
 
 }
