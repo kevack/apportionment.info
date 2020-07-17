@@ -251,16 +251,19 @@ div.wrapper{
 .two{
   grid-column: 4 / 7;
   grid-row: 1;
+  border-radius: 50%;
 }
 
 .three{
   grid-column: 7 / 10;
   grid-row: 1;
+  border-radius: 50%;
 }
 
 .four{
   grid-column: 10 / 13;
   grid-row: 1;
+  border-radius: 50%;
 }
 
 .five{
@@ -456,7 +459,7 @@ h1 {
   max-width:400px;
   max-height:450px;
   margin-left: 40px;
-  
+
 }
 
 .contentPicture img{
