@@ -39,7 +39,6 @@ header h4{
   color: #1A1A7F;
   text-align: center;
   margin: 5px 0 30px 0;
-
 }
 
 h2 {
@@ -55,7 +54,7 @@ h3{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 28px;
   color: #1A1A7F;
-  margin-bottom:0;
+  margin-bottom:.5em;
 
 }
 
@@ -74,7 +73,7 @@ li{
   font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 113.5%;
   /* or 27px */
   color: #1A1A7F;
@@ -641,6 +640,14 @@ padding-top: 0;
 /*
  ####################################### CSS for the Primary Sources interaction #################################
 */
+.accordion h4{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
+  color: #1A1A7F;
+  margin-bottom:.5em;
+  text-decoration: underline;
+
+}
 
 .accordion > input[type="checkbox"] {
   position: absolute;
@@ -672,7 +679,7 @@ body {
 }
 
 .accordion {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 .accordion > input[type="checkbox"]:checked ~ .content {
